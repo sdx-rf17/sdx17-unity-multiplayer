@@ -1,0 +1,1 @@
+{"allowUnsafeCode":false,"autoReferenced":true,"defineConstraints":[],"excludePlatforms":[],"includePlatforms":["Editor"],"name":"Sdx17.Multiplayer.Editor","noEngineReferences":false,"overrideReferences":false,"precompiledReferences":[],"references":["Sdx17.Multiplayer.Runtime"],"rootNamespace":"Sdx17.Multiplayer.Editor","versionDefines":[]}

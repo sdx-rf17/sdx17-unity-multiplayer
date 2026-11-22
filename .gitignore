@@ -1,0 +1,47 @@
+# Unity generated folders — never commit these.
+# They are rebuilt by the Unity Editor on first open.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Unity crash / memory dumps
+/[Mm]emoryCaptures/
+
+# Asset meta files: KEEP .meta files in version control.
+# Every asset needs its matching .meta file or Unity will regenerate
+# new GUIDs on import and break references. Do not ignore *.meta.
+# (No *.meta rule is listed here on purpose.)
+
+# Compiled C# artefacts
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS artefacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Rider / Visual Studio
+.idea/
+.vs/
+*.DotSettings.user

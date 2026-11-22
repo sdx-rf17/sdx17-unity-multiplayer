@@ -1,0 +1,21 @@
+Third-Party Notices
+Sdx17 Multiplayer Architecture — version 0.1.0
+
+No third-party code, fonts, audio, or assets are included in this
+package. All code in this package is original work by Sdx17 and is
+licensed under the MIT License (see LICENSE, Copyright 2026 Sdx17).
+
+Optional dependency (NOT bundled):
+  com.unity.netcode.gameobjects — Unity Netcode for GameObjects.
+  This package is NOT included with Sdx17 Multiplayer Architecture.
+  It is required only if you use the optional Netcode adapter in
+  Runtime/Netcode/ (NetcodeTransportAdapter.cs). If you use the
+  adapter, install com.unity.netcode.gameobjects separately through
+  the Unity Package Manager (see Runtime/Netcode/README.md). The
+  adapter file is guarded by
+  #if UNITY_NETCODE_GAMEOBJECTS || UNITY_NETCODE, so without the
+  Netcode package installed it compiles to nothing and the core
+  package works on its own. Unity Netcode for GameObjects is
+  covered by its own license from Unity Technologies; that license
+  is not reproduced here because the package is not distributed
+  with this product.
